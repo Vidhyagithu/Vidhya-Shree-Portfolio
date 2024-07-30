@@ -1,0 +1,239 @@
+/*LAPTOP SCREEN*/
+@media screen and (max-width:1000px)
+{
+    .menu{
+        font-size: 13px;
+    }
+    .logo{
+        margin-top: -0.5%;
+    }
+    .myimg img{
+        margin-left: 20%;
+        width: 280px;
+        height: 280px;
+        margin-top: 10%;
+    }
+    .short_intro p{
+        font-size: 16px;
+    }
+    .btn_section button{
+        width: 150px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .about_me h1{
+        font-size: 25px;
+    }
+    .about_me p{
+        font-size:16px ;
+    }
+    .skills h1{
+        font-size: 25px;
+    }
+    .skill_set h1{
+        font-size: 20px;
+    }
+    .technical_skills .percentage h3{
+        font-size: 18px;
+    }
+    .technical_skills .bar{
+        height: 15px;
+        margin-top: -3%;
+    }
+    .circular-progress{
+        width: 115px;
+        height: 115px;
+    }
+    .circular-progress::before{
+        width: 100px;
+        height: 100px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .works .description{
+        font-size: 15px;
+    }
+    .services h1{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
+/*TABLET SCREEN*/
+@media screen and (max-width:800px)
+{
+    .logo{
+        width: 60px;
+        height: 60px;
+        margin-top: -1px;
+    }
+    .menu{
+        font-size:10px ;
+    }
+    .myimg img{
+        margin-left: 20%;
+        width: 260px;
+        height: 260px;
+        margin-top: 10%;
+    }
+    .short_intro p{
+        font-size: 16px;
+    }
+    .about_me h1{
+        font-size: 22px;
+    }
+    .about_me p{
+        font-size:16px ;
+    }
+    .skills h1{
+        font-size: 22px;
+    }
+    .skill_set h1{
+        font-size: 16px;
+    }
+    .works .description{
+        font-size: 16px;
+    }
+    .my_contact_details{
+        display: block;
+        width: 100%;
+    }
+    .Message_form{
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .services h1{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+/*MOBILE SCREEN*/
+@media screen and (max-width:700px)
+{
+    .logo{
+        margin-top: -5px;
+        width: 100%;
+        justify-content: center;
+    }
+    .logo img{
+        height: 40px;
+        width: 40px;
+    }
+    .menu{
+        margin-top: -3%;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .menu a{
+        font-size: 14px;
+        padding-right: 10px;
+    }
+    .prof_intro{
+        display: inline-block;
+        width: 100%;
+        justify-content: center;
+    }
+    .myimg{
+        width: 100%;
+        justify-content: center;    
+    }
+    .myimg img{
+        width: 220px;
+        height: 220px;
+        margin-left: 0px;
+        margin-top: 1%;
+    }
+    .short_intro p{
+        font-size: 15px;
+    }
+    .btn_section{
+        width: 100%;
+        justify-content: center;
+    }
+    .btn_section button{
+        width: 110px;
+        height: 38px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .about_me h1{
+        font-size: 25px;
+    }
+    .about_me p{
+        font-size:15px ;
+    }
+    .skills h1{
+        font-size: 25px;
+    }
+    .skill_set h1{
+        font-size: 20px;
+    }
+    .technical_skills{
+        width: 100%;
+    }
+    .professional_skills{
+        margin-top: 6%;
+        width: 100%;
+    }
+    .technical_skills .bar{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 1.5%;
+    }
+    .technical_skills h3{
+        margin-top: 8%;
+    }
+    .technical_skills .percentage{
+        margin-top: -3%;
+    }
+    .container .skill{
+        width: 50%;
+        justify-content: center;
+    }
+    .circular-progress{
+        width: 115px;
+        height: 115px;
+    }
+    .circular-progress::before{
+        width: 100px;
+        height: 100px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .works{
+        display: block;
+    }
+    .works .thumbnail{
+        padding-top: 5%;
+        width: 100%;
+        justify-content: center;
+    }
+    .works .description{
+        width: 90%;
+        font-size: 14px;
+        justify-content: center;
+        padding-left: 3%;
+    }
+    .works{
+        border: #f4b41a 2px solid;
+        margin-top: 6%;
+    }
+    .works:hover{
+        transform: scale(1.05);
+        transition: 0.4s;
+    }
+    .services h1{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
